@@ -1,18 +1,19 @@
 /*  your css code here. If applicable */
 .center{
-    position: relative;
-	border-top-width:2px;
-	
-}
-
-.box{
+    display: flex;
+    justify-content: center;
     border: 2px solid black;
     width: 200px;
     height: 200px;
     background-color: lightblue;
+    align-items: center;
+    
+}
+
+.box{
     color: purple;
     text-align:center;
-    top: 50%;
-    position:center ;
-
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
 }
